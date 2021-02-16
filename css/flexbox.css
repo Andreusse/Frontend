@@ -1,0 +1,32 @@
+.orangebox {
+    
+    background-color: orange;
+}
+.redbox {
+    
+    background-color: red;
+}
+.bluebox {
+    
+    background-color: blue;
+}
+.yellowbox {
+    
+    background-color: yellow;
+}
+.violetbox {
+    
+    background-color: violet;
+}
+.box-size {
+    width:100px;
+    height: 100px;
+}
+.container {
+    padding: 20px;
+    display: flex;
+    background-color: thistle;
+    height: 400px;
+   /* justify-content: space-evenly;
+    flex-wrap: wrap;*/
+}

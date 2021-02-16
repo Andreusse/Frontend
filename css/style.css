@@ -1,0 +1,78 @@
+/* 
+    *{}
+    p{}
+    .class-name {}
+    #id-name {}
+    inline-style
+    .class-name h1
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.page-title{
+
+    letter-spacing: 1px;
+}
+.page-description {
+
+    color: gray;
+    font-size: 16px;
+}
+.news-container {
+    margin-top: 50px;
+}
+.news-post{
+    width: 800px;
+}
+.news-post-author, .news-post-date{
+    font-size: 14px;
+    color:lightseagreen;
+    font-weight: bold;
+}
+.news-post-date {
+    color: gray;
+}
+.news-post-title {
+    border-left: 3px solid ;
+    padding-left: 10px;
+}
+.news-post-text {
+    border-left: 4px solid gray;
+    padding-left: 10px;
+    font-style: italic;
+    line-height: 22px;
+}
+.news-post-link {
+     text-decoration: none;
+     color: coral;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+.news-post-img {
+    height: 500px;
+    width: 500px;
+}
+.news-post {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.list  {
+    list-style: none;
+}
+.list li::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    margin-right: 20px;
+}
+.news-container {
+    position: fixed;
+}
